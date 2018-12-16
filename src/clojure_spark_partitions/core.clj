@@ -37,7 +37,7 @@
 
 (defn write-paritions
   "write partitions by given columns"
-  [data-set partition-columns file-name]
+  [data-set file-name partition-columns]
   (->
    data-set
    (.write)
@@ -61,7 +61,7 @@
   (println "writing json data to partitions...")
   (->
    (read-json "resources/employee.json")
-   (write-paritions "state" "out/employee-partition.json"))
+   (write-paritions "out/employee-partition.json" "state"))
 
   (println "reading from partitions ")
   (->
