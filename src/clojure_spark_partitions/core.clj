@@ -52,6 +52,7 @@
    spark-session
    (.read)
    (.json file-name)
+   ;; you can add more filter functions or write a columns expression with logical and
    (.filter (format "state='%s'" state))))
 
 (defn -main
