@@ -1,6 +1,6 @@
 # clojure-spark-partitions
 
-FIXME: description
+A Sample clojure project to write Apache Spark Partitons 
 
 ## Installation
 
@@ -28,19 +28,12 @@ FIXME: explanation
     
 ## Options
 
-FIXME: listing of options this app accepts.
-
 ## Examples
 
 ...
 
 ### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
