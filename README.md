@@ -6,8 +6,6 @@ A Sample clojure project to write Apache Spark Partitons
 
 ## Usage
 
-FIXME: explanation
-
     $ java -jar clojure-spark-partitions-0.1.0-standalone.jar [args]
     {"id": 1, "state": "TX","name": "john", "age": 23}
     {"id": 2, "state": "TN","name": "jim", "age": 43}
